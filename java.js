@@ -1,13 +1,12 @@
 function changeTitle() {
-    let selectedElement = document.getElementById("week1Card");
+    let selectedElement = document.getElementById("intro");
     console.log(selectedElement);
-    selectedElement.innerText = "Week One";
+    selectedElement.innerText = "Welcome to our home!";
 }
 
 function currentMinute() {
     var dt = new Date();
     let selectedElement = document.getElementById("datetime");
     console.log(selectedElement);
-    selectedElement.innerText = "Today is " + dt.toLocaleDateString() + ", and it is " +
-        dt.toLocaleTimeString() + " now.";
+    selectedElement.innerText = "It is " + dt.toLocaleTimeString();
 }
