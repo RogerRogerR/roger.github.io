@@ -10,3 +10,8 @@ function getTime() {
     console.log(selectedElement);
     selectedElement.innerText = "It is " + dt.toLocaleTimeString();
 }
+
+
+
+
+
