@@ -8,3 +8,11 @@ h1 {
 p#education {
     color:violet
 }
+
+span { 
+    float: left;
+    line-height: 85%;
+    width: .7em;
+    font-size: 400%;
+    font-family: georgia;
+}
