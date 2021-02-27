@@ -50,5 +50,16 @@ function listTexts(sourceXML){
         td2.setAttribute('id', 'td_desc_'+i);
         td2.textContent = textList[i].children[3].innerHTML;
         document.getElementById('row_'+i).appendChild(td2);
+
+        // var links = textList[i].children[4];
+        // for (i = 0; i < 2; i++) {
+        //     var td3 = document.createElement('td');
+        //     td3.setAttribute('id', 'td_photo_' + i);
+        //     var uuid = links.children[i].attributes[1].nodeValue;
+        //     var url = "http://ochre.lib.uchicago.edu/ochre?uuid=" + uuid + "&preview";
+        //     td3.setAttribute('href', XMLrequest(url));
+        //     td3.textContent = links.children[i].innerHTML;
+        //     document.getElementById('row_' + i).appendChild(td3);
+        // }
     }
 }
